@@ -9,4 +9,6 @@ const route: FastifyPluginAsync = (server, _options, done) => {
     done();
 };
 
+export default route;
+
 export const options: FastifyPluginOptions = {};
